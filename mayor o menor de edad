@@ -1,0 +1,88 @@
+/***********************************************
+* Nombre del programa: Edad de Manuel
+* Autor: Mónica Lázaro
+* Fecha: 26 de agosto de 2025
+* Descripción:
+*   El programa solicita la edad y determina si
+*   Manuel es mayor o menor de edad.
+************************************************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int edad;
+
+    cout << "Ingresa la edad de Manuel: ";
+    cin >> edad;
+
+    if (edad >= 18) {
+        cout << "Manuel es mayor de edad" << endl;
+    } else {
+        cout << "Manuel es menor de edad" << endl;
+    }
+
+    return 0;
+}
+
+
+
+
+/***********************************************
+* Nombre del programa: Mayor o menor de edad
+* Autor: Mónica Lázaro
+* Fecha: 15 de marzo de 2025
+* Descripción:
+*   El programa solicita la edad del usuario y
+*   determina si es mayor o menor de edad.
+************************************************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int edad;
+
+    cout << "Ingresa tu edad: ";
+    cin >> edad;
+
+    if (edad >= 18) {
+        cout << "Eres mayor de edad" << endl;
+    } else {
+        cout << "Eres menor de edad" << endl;
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+/***********************************************
+* Nombre del programa: Edad de Taily
+* Autor: Mónica Lázaro
+* Fecha: 03 de diciembre de 2025
+* Descripción:
+*   El programa solicita la edad y determina si
+*   Taily es mayor o menor de edad.
+************************************************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int edad;
+
+    cout << "Ingresa la edad de Taily: ";
+    cin >> edad;
+
+    if (edad >= 18) {
+        cout << "Taily es mayor de edad" << endl;
+    } else {
+        cout << "Taily es menor de edad" << endl;
+    }
+
+    return 0;
+}
