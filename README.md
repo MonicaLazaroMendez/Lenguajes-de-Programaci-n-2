@@ -90,7 +90,7 @@ int main() {
     string rfc = generar_rfc_sin_homoclave(nombre, ap_paterno, ap_materno, dia, mes, anio);
 
     // Salida
-    cout << "### 🛠️ Generador RFC (Sin Homoclave) 🛠️ ###" << endl;
+    cout << "### Generador RFC (Sin Homoclave) ###" << endl;
     cout << "-----------------------------------------------" << endl;
     cout << "Nombre Completo: " << nombre << " " << ap_paterno << " " << ap_materno << endl;
     cout << "Fecha de Nacimiento: " << dia << "/" << mes << "/" << anio << endl;
